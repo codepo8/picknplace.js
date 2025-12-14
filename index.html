@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Open Graph -->
+    <meta property="og:site_name" content="picknplace.js" />
+    <meta property="og:title" content="picknplace.js" />
+    <meta
+      property="og:description"
+      content="A proof of concept of a viable drag and drop alternative"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jgthms.com/picknplace.js/" />
+
+    <meta
+      property="og:image"
+      content="https://jgthms.com/picknplace.js/images/facebook.png"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="picknplace.js logo" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="picknplace.js" />
+    <meta name="twitter:description" content="A proof of concept of a viable drag and drop alternative" />
+    <meta name="twitter:image" content="https://jgthms.com/picknplace.js/images/twitter.png" />
+    <meta name="twitter:image:alt" content="picknplace.js logo" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="index.css" rel="stylesheet" />
+
+    <title>picknplace.js</title>
+    <script defer src="index.js" type="module"></script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div>
+          <h1>picknplace<span class="accent">.js</span></h1>
+          <p>an alternative to <strong>drag and drop</strong></p>
+        </div>
+
+        <p class="accent-bg">
+          <em>3</em> steps: <strong>pick</strong> -> <strong>scroll</strong> ->
+          <strong>place</strong>
+        </p>
+
+        <small>
+          Or use <kbd>Enter</kbd> to place, <kbd>Esc</kbd> to cancel
+        </small>
+      </header>
+
+      <ol class="pnp-list">
+        <li class="pnp-item pnp-real">
+          <div class="element n1">
+            <strong>One</strong>
+            <div class="pnp-buttons">
+              <button class="pnp-pick" type="button">Pick</button>
+            </div>
+          </div>
+        </li>
+        <li class="pnp-item pnp-real">
+          <div class="element n2">
+            <strong>Two</strong>
+            <div class="pnp-buttons">
+              <button class="pnp-pick" type="button">Pick</button>
+            </div>
+          </div>
+        </li>
+        <li class="pnp-item pnp-real">
+          <div class="element n3">
+            <strong>Three</strong>
+            <div class="pnp-buttons">
+              <button class="pnp-pick" type="button">Pick</button>
+            </div>
+          </div>
+        </li>
+        <li class="pnp-item pnp-real">
+          <div class="element n4">
+            <strong>Four</strong>
+            <div class="pnp-buttons">
+              <button class="pnp-pick" type="button">Pick</button>
+            </div>
+          </div>
+        </li>
+        <li class="pnp-item pnp-real">
+          <div class="element n5">
+            <strong>Five</strong>
+            <div class="pnp-buttons">
+              <button class="pnp-pick" type="button">Pick</button>
+            </div>
+          </div>
+        </li>
+        <li class="pnp-item pnp-real">
+          <div class="element n6">
+            <strong>Six</strong>
+            <div class="pnp-buttons">
+              <button class="pnp-pick" type="button">Pick</button>
+            </div>
+          </div>
+        </li>
+        <li class="pnp-item pnp-real">
+          <div class="element n7">
+            <strong>Seven</strong>
+            <div class="pnp-buttons">
+              <button class="pnp-pick" type="button">Pick</button>
+            </div>
+          </div>
+        </li>
+        <li class="pnp-item pnp-real">
+          <div class="element n8">
+            <strong>Eight</strong>
+            <div class="pnp-buttons">
+              <button class="pnp-pick" type="button">Pick</button>
+            </div>
+          </div>
+        </li>
+        <li class="pnp-item pnp-real">
+          <div class="element n9">
+            <strong>Nine</strong>
+            <div class="pnp-buttons">
+              <button class="pnp-pick" type="button">Pick</button>
+            </div>
+          </div>
+        </li>
+        <li class="pnp-item pnp-real">
+          <div class="element n10">
+            <strong>Ten</strong>
+            <div class="pnp-buttons">
+              <button class="pnp-pick" type="button">Pick</button>
+            </div>
+          </div>
+        </li>
+      </ol>
+
+      <div class="pnp-controls">
+        <button class="pnp-cancel button">Cancel</button>
+        <button class="pnp-place button is-primary">Place</button>
+      </div>
+
+      <footer>
+        <div>
+          <p>Why?</p>
+          <p>
+            I find that the drag and drop experience can quickly become a nightmare, especially on mobile.
+            <br>To tap, hold, drag, and scroll, all at the same time, is both difficult to achieve, and prone to errors.
+            <br>I've always had in mind this 2-step approach,
+            where picking an element and placing it were two separate steps.
+            <br>So I implemented this basic version to showcase my idea.
+          </p>
+        </div>
+
+        <div>
+          <p>Is this a library?</p>
+          <p>
+            Not exactly. This is merely a proof of concept, to convey the idea.
+            You can look at the source code however, for inspiration.
+          </p>
+        </div>
+
+        <div>
+          <p>Who are you?</p>
+          <p>
+            I'm <a href="https://jgthms.com/">@jgthms</a>, a frontend designer.
+          </p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
